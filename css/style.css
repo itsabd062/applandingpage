@@ -1624,6 +1624,14 @@ SECTION MARGIN
         transform: translate3d(0,5px,0);
     }
 }
+@media (max-width:305px) {
+    .sm-sc{
+    margin-top: 30px;
+}
+.sm-none{
+    display: none;
+}
+}
 
 
 /*hero four section*/
@@ -3360,6 +3368,7 @@ p.form-message.error{
 .copyright-text p a:hover, .terms-condition ul li a:hover{
     color: #003bb1;
 }
+
 /*====================================
 			 16. BACK TO TOP CSS
 ====================================*/

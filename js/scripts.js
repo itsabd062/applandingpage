@@ -1,38 +1,3 @@
-/*================
- Template Name: ApeTech - App Landing Page Template
- Description: ApeTech is a powerful 100% Responsive app, product, and  Software landing page template.
- Version: 1.0
- Author: https://themeforest.net/user/htmllover/portfolio
- =======================*/
-
-// TABLE OF CONTENTS
-
-//  1. preloader
-//  2. easeScroll
-//  3. navbar or menu
-//  4. client testimonial
-//  5. hero background slider
-//  6. customers slider
-//  7. magnify popup video
-//  8. ytplayer for hero background video
-//  9. typed
-// 10. back to top]
-// 11. Ajax contact form validator
-
-jQuery(function ($) {
-
-    'use strict';
-
-    //  1. preloader
-    $(window).ready(function() {
-        $('#preloader').delay(200).fadeOut('fade');
-    });
-
-    //  2. easeScroll
-    $("html").easeScroll();
-
-
-    //  3. navbar or menu
     $(window).scroll(function() {
         if ($(".navbar").offset().top > 50) {
             $(".navbar-fixed-top").addClass("top-nav-collapse");
